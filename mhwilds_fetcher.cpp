@@ -7,7 +7,7 @@
 using json = nlohmann::json;
 
 const int size = 7;
-std::string type[size] = {"armor", "charms", "decorations", "skills", "weapons", "monsters", /*"armor/sets"*/} ;
+std::string type[size] = {"armor", "charms", "decorations", "skills", "weapons", "monsters" /*"armor/sets"*/} ;
 //std::string type [1] = {"armor/sets"};
 int main() {
     // Replace with actual API endpoint for weapons
