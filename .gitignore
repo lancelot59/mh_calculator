@@ -5,4 +5,5 @@
 *.log
 
 #ignore executables (manual)
-weapon_fetcher
+fetcher
+parser
