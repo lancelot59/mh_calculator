@@ -63,6 +63,16 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "format": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "any": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "future": "cpp",
+        "ranges": "cpp",
+        "cinttypes": "cpp",
+        "valarray": "cpp"
     }
 }

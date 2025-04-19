@@ -1,3 +1,4 @@
+.PHONY: all fetcher parser clean0
 all:
 
 fetcher:
@@ -5,3 +6,6 @@ fetcher:
 
 parser:
 	g++ -std=c++17 mhwilds_parser.cpp -o parser && ./parser
+
+clean:
+	rm	fetcher parser

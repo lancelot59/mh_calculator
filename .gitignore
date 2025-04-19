@@ -1,6 +1,7 @@
 #ignore all .json files
 *.json
 
+!skill_details.json
 #ignore all log files
 *.log
 
