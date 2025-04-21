@@ -1,41 +1,8 @@
 [
     {
       "name": "Attack Boost",
-      "level": 1,
-      "damage_boost": 3,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Attack Boost",
-      "level": 2,
-      "damage_boost": 5,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Attack Boost",
-      "level": 3,
-      "damage_boost": 7,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Attack Boost",
-      "level": 4,
-      "damage_boost": 8,
-      "damage_boost_perc": 2,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Attack Boost",
-      "level": 5,
-      "damage_boost": 9,
+      "level": [1, 2, 3, 4, 5],
+      "damage_boost":  [3, 5, 7, 8, 9],
       "damage_boost_perc": 4,
       "affinity_boost": 0,
       "uptime": 100,
@@ -43,120 +10,24 @@
     },
     {
       "name": "Critical Eye",
-      "level": 1,
+      "level": [1, 2, 3, 4, 5],
       "damage_boost": 0,
-      "affinity_boost": 4,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Eye",
-      "level": 2,
-      "damage_boost": 0,
-      "affinity_boost": 8,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Eye",
-      "level": 3,
-      "damage_boost": 0,
-      "affinity_boost": 12,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Eye",
-      "level": 4,
-      "damage_boost": 0,
-      "affinity_boost": 16,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Eye",
-      "level": 5,
-      "damage_boost": 0,
-      "affinity_boost": 20,
+      "affinity_boost": [4, 8, 12, 16, 20],
       "uptime": 100,
       "elemental_boost": 0
     },
     {
       "name": "Weakness Exploit",
-      "level": 1,
+      "level": [1, 2, 3, 4, 5],
       "damage_boost": 0,
-      "affinity_boost": 5,
-      "uptime": 90,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Weakness Exploit",
-      "level": 3,
-      "damage_boost": 0,
-      "affinity_boost": 10,
-      "uptime": 90,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Weakness Exploit",
-      "level": 3,
-      "damage_boost": 0,
-      "affinity_boost": 15,
-      "uptime": 90,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Weakness Exploit",
-      "level": 4,
-      "damage_boost": 0,
-      "affinity_boost": 20,
-      "uptime": 90,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Weakness Exploit",
-      "level": 5,
-      "damage_boost": 0,
-      "affinity_boost": 30,
+      "affinity_boost": [5, 10, 15, 20, 30],
       "uptime": 90,
       "elemental_boost": 0
     },
     {
       "name": "Critical Boost",
-      "level": 1,
-      "damage_boost": 0.28,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Boost",
-      "level": 2,
-      "damage_boost": 0.31,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Boost",
-      "level": 3,
-      "damage_boost": 0.34,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Boost",
-      "level": 4,
-      "damage_boost": 0.37,
-      "affinity_boost": 0,
-      "uptime": 100,
-      "elemental_boost": 0
-    },
-    {
-      "name": "Critical Boost",
-      "level": 5,
-      "damage_boost": 0.4,
+      "level": [1, 2, 3, 4, 5],
+      "damage_boost": [0.28, 0.31, 0.34, 0.37, 0.4],
       "affinity_boost": 0,
       "uptime": 100,
       "elemental_boost": 0
